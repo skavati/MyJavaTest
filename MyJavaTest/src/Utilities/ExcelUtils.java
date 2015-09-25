@@ -136,8 +136,7 @@ for (int i=1; i <= sheet.getLastRowNum(); i++){
 	    if  (sheet.getRow(i).getCell(0).getStringCellValue().trim().equals( "2.7.2.6.1.1") ) { 
 	    	System.out.println("KeyCell found");
 	    	 for (int j=1; j <= sheet.getRow(i).getLastCellNum(); j++){
-	    		 try {
-	    			 //testing.
+	    		 try {	    			
 	    			 // If cell value  is empty then continue next iteration
 	    			 sheet.getRow(i).getCell(j).getStringCellValue().equalsIgnoreCase(null);
 	    			} catch (NullPointerException npe) {
