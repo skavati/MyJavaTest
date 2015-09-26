@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="automationFramework.TestCase_TestNG">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- automationFramework.TestCase_TestNG -->
+      <class name="Utilities.ExcelUtils">
+        <methods>
+          <include name="ReadDataFromExcel"/>
+        </methods>
+      </class> <!-- Utilities.ExcelUtils -->
+      <class name="MyTestPac.Test1">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- MyTestPac.Test1 -->
+      <class name="seleniumGrid.ParallelTesting">
+        <methods>
+          <include name="calculatepercent"/>
+        </methods>
+      </class> <!-- seleniumGrid.ParallelTesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

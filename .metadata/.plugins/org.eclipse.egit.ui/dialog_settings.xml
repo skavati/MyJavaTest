@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="1" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="C:\Users\skava\git\.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://gitHub.com/skavati/MyJavaTest.git"/>
+		<item value="http://gitHub.com/skavati/MyJavaTest.git"/>
+		<item value="http://gitHub.com/skavati/MyJavaTest"/>
+		<item value="file:///C:\Users\skava\git\MyJavaTest"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+</section>
