@@ -27,7 +27,7 @@ public class Test1 {
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
 		 
-		driver= BaseMethods.GetDriver("IE");        
+		driver= BaseMethods.GetDriver("chrome");        
 		driver.manage().window().maximize();        
        BaseMethods.driver.navigate().to("http://" + GlobalVariables.iPOSServer + "/iPOS/Web/Login.aspx"); 
 	}
