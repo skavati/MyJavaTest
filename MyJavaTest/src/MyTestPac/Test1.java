@@ -92,10 +92,10 @@ public class Test1 {
 	@Test
 	 public void test2() throws InterruptedException { //throws InterruptedException {
 			
-//		 PageObjectModel page = PageFactory.initElements(driver, PageObjectModel.class);	
-//	     BaseMethods.KeyInElement(page.UserNameText, "ss");            
-//	     BaseMethods.KeyInElement(page.PasswordText, "ss1");           
-//	     BaseMethods.ClickElement(page.LoginButton);
+		 PageObjectModel page = PageFactory.initElements(driver, PageObjectModel.class);	
+	     BaseMethods.KeyInElement(page.UserNameText, "ss");            
+	     BaseMethods.KeyInElement(page.PasswordText, "ss1");           
+	     BaseMethods.ClickElement(page.LoginButton);
 	     System.out.println("User name and password entered successfully");            
 //	     BaseMethods.SwitchFrame("mainFrame");
 //	     BaseMethods.SwitchFrame("topFrame");            
