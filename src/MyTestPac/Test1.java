@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
 
-import Utilities.TableUtilities;
+
 
 import org.testng.annotations.BeforeMethod;
  
@@ -19,8 +19,7 @@ import org.testng.annotations.AfterMethod;
 
 
 public class Test1 {
-	public static WebDriver driver;
-	PageObjectModel  PageObjectModel;
+	public static WebDriver driver;	
 	public  Assertion hardAssert = new Assertion(); 
 	public  SoftAssert softAssert = new SoftAssert(); 
 

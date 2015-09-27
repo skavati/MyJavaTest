@@ -1,103 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="5" failed="0" total="5" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31" started-at="2015-09-26T10:15:16Z" finished-at="2015-09-26T10:15:16Z">
+  <suite name="Suite" duration-ms="9601" started-at="2015-09-27T22:30:05Z" finished-at="2015-09-27T22:30:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31" started-at="2015-09-26T10:15:16Z" finished-at="2015-09-26T10:15:16Z">
-      <class name="automationFramework.TestCase_TestNG">
-        <test-method status="SKIP" signature="test()[pri:0, instance:automationFramework.TestCase_TestNG@90f6bfd]" name="test" duration-ms="1" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:automationFramework.TestCase_TestNG@90f6bfd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
+    <test name="Test1" duration-ms="9601" started-at="2015-09-27T22:30:05Z" finished-at="2015-09-27T22:30:14Z">
+      <class name="MyTestPac.Test1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:MyTestPac.Test1@380fb434]" name="beforeMethod" is-config="true" duration-ms="4670" started-at="2015-09-28T08:30:05Z" finished-at="2015-09-28T08:30:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:automationFramework.TestCase_TestNG@90f6bfd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- automationFramework.TestCase_TestNG -->
-      <class name="MyTestPac.Test1">
-        <test-method status="SKIP" signature="test1()[pri:0, instance:MyTestPac.Test1@35fb3008]" name="test1" duration-ms="1" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:MyTestPac.Test1@380fb434]" name="test1" duration-ms="165" started-at="2015-09-28T08:30:09Z" finished-at="2015-09-28T08:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:MyTestPac.Test1@35fb3008]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:MyTestPac.Test1@380fb434]" name="beforeMethod" is-config="true" duration-ms="4596" started-at="2015-09-28T08:30:10Z" finished-at="2015-09-28T08:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="AfterMethod()[pri:0, instance:MyTestPac.Test1@35fb3008]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MyTestPac.Test1@380fb434]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2015-09-28T08:30:10Z" finished-at="2015-09-28T08:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="SKIP" signature="AfterMethod()[pri:0, instance:MyTestPac.Test1@35fb3008]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:MyTestPac.Test1@35fb3008]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="test2()[pri:0, instance:MyTestPac.Test1@35fb3008]" name="test2" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:MyTestPac.Test1@380fb434]" name="test2" duration-ms="159" started-at="2015-09-28T08:30:14Z" finished-at="2015-09-28T08:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MyTestPac.Test1@380fb434]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2015-09-28T08:30:14Z" finished-at="2015-09-28T08:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
       </class> <!-- MyTestPac.Test1 -->
-      <class name="Utilities.ExcelUtils">
-        <test-method status="SKIP" signature="ReadDataFromExcel()[pri:0, instance:Utilities.ExcelUtils@3cbbc1e0]" name="ReadDataFromExcel" duration-ms="4" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReadDataFromExcel -->
-      </class> <!-- Utilities.ExcelUtils -->
-      <class name="seleniumGrid.ParallelTesting">
-        <test-method status="FAIL" signature="launchapp(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTesting@7225790e]" name="launchapp" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by @Configuration on method launchapp but has not been marked @Optional or defined
-in C:\Users\skava\AppData\Local\Temp\testng-eclipse--1217445812\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by @Configuration on method launchapp but has not been marked @Optional or defined
-in C:\Users\skava\AppData\Local\Temp\testng-eclipse--1217445812\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
-	at org.testng.TestRunner.run(TestRunner.java:609)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchapp -->
-        <test-method status="SKIP" signature="calculatepercent()[pri:0, instance:seleniumGrid.ParallelTesting@7225790e]" name="calculatepercent" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calculatepercent -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:seleniumGrid.ParallelTesting@7225790e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-09-26T20:15:16Z" finished-at="2015-09-26T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- seleniumGrid.ParallelTesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

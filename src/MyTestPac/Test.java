@@ -3,11 +3,12 @@ package MyTestPac;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+
 public class Test {
 
  public static void main(String[] args) {
-  WebDriver driver = new InternetExplorerDriver();
-  driver.get("http://" + GlobalVariables.iPOSServer + "/iPOS/Web/Login.aspx");
+//  WebDriver driver = new InternetExplorerDriver();
+//  driver.get("http://" + GlobalVariables.iPOSServer + "/iPOS/Web/Login.aspx");
 //  String i = driver.getCurrentUrl();
 //  System.out.println(i);
 //  driver.close();
